@@ -5,10 +5,64 @@
              x:Class="PayneBioApp.MainPage">
 
     <Grid>
-        <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <BoxView Grid.Row="0" Grid.Column="0" 
+               Grid.ColumnSpan="2"
+                 BackgroundColor="Crimson"
+                 />
+        <BoxView Grid.Row="1" Grid.Column="0" 
+                 BackgroundColor="DarkGoldenrod"
+                 />
+        <Label Grid.Row="1" Grid.Column="0"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               Text = "About Me" />
+        <BoxView Grid.Row="1" Grid.Column="1" 
+                 BackgroundColor="DarkGoldenrod"
+                 />
+        <Label Grid.Row="1" Grid.Column="1"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               Text = "Skills" />
+        <BoxView Grid.Row="2" Grid.Column="1" 
+                 BackgroundColor="DarkGoldenrod"
+                 />
+        <Label Grid.Row="2" Grid.Column="1"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               Text = "Contact Me" />
+        <BoxView Grid.Row="2" Grid.Column="0" 
+                 BackgroundColor="DarkGoldenrod"
+                 />
+        <Label Grid.Row="2" Grid.Column="0"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="End"
+               VerticalTextAlignment="End"
+               Text = "Photos" />
+
+        <Label Grid.Row="0" Grid.Column="0" 
+               Grid.ColumnSpan="2" 
+               Text = "Bradley Payne" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        
     </Grid>
 
 </ContentPage>
