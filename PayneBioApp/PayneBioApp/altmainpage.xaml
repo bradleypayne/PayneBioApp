@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PayneBioApp.altmainpage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="10">
+                <Label Text="Bradley Payne" HorizontalTextAlignment="Center" TextColor="Tomato" FontSize="35" BackgroundColor="Azure" WidthRequest="1000" HeightRequest="50"/>
+                <ScrollView Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal" Margin="5">
+                        <BoxView Color="AntiqueWhite" HeightRequest="150" WidthRequest="150"/>
+                        <BoxView Color="YellowGreen" HeightRequest="150" WidthRequest="150"/>
+                        <BoxView Color="AntiqueWhite" HeightRequest="150" WidthRequest="150"/>
+                        <BoxView Color="YellowGreen" HeightRequest="150" WidthRequest="150"/>
+                    </StackLayout>
+                </ScrollView>
+
+                <Button Text="About Me"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                    WidthRequest="1000"
+                    HeightRequest="100"
+                        BackgroundColor="Tomato"/>
+                <Button Text="Skills"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                    WidthRequest="1000"
+                    HeightRequest="100"
+                        BackgroundColor="YellowGreen"/>
+                <Button Text="Photos"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                    WidthRequest="1000"
+                    HeightRequest="100"
+                        BackgroundColor="Tomato"/>
+                <Button Text="Contact Me"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" 
+                    WidthRequest="1000"
+                    HeightRequest="100"
+                        BackgroundColor="YellowGreen"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
