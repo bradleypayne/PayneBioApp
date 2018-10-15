@@ -16,5 +16,25 @@ namespace PayneBioApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void aboutmebutton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AboutMePage());
+        }
+
+        private void skillsbutton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SkillsPage());
+        }
+
+        private void ContactMebutton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Photosbutton_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

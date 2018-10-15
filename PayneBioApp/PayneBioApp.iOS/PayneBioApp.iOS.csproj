@@ -156,4 +156,40 @@
       <Name>PayneBioApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tyler.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\family.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\family.jpg.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\football.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\football2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\friends.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\maddy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\truck.jpg" />
+  </ItemGroup>
 </Project>

@@ -5,40 +5,52 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Margin="10">
-                <Label Text="Bradley Payne" HorizontalTextAlignment="Center" TextColor="Tomato" FontSize="35" BackgroundColor="Azure" WidthRequest="1000" HeightRequest="50"/>
+                <Label Text="Bradley Payne" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Crimson" FontSize="35" WidthRequest="1000" HeightRequest="50"/>
                 <ScrollView Orientation="Horizontal">
                     <StackLayout Orientation="Horizontal" Margin="5">
-                        <BoxView Color="AntiqueWhite" HeightRequest="150" WidthRequest="150"/>
-                        <BoxView Color="YellowGreen" HeightRequest="150" WidthRequest="150"/>
-                        <BoxView Color="AntiqueWhite" HeightRequest="150" WidthRequest="150"/>
-                        <BoxView Color="YellowGreen" HeightRequest="150" WidthRequest="150"/>
+                        <Image x:Name="dadimage" Source="dad.jpg" HeightRequest="100" WidthRequest="100"/>
+                        <Image x:Name="footballimage" Source="football.jpg" HeightRequest="100" WidthRequest="100"/>
                     </StackLayout>
                 </ScrollView>
 
-                <Button Text="About Me"
+                <Button x:Name="aboutmebutton" 
+                        Clicked="aboutmebutton_Clicked"
+                        Opacity=".75"
+                        Text="About Me"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
                     HeightRequest="100"
-                        BackgroundColor="Tomato"/>
+                        BackgroundColor="Crimson"
+                        TextColor="Black"
+                        />
                 <Button Text="Skills"
+                        Opacity=".75"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
                     HeightRequest="100"
-                        BackgroundColor="YellowGreen"/>
+                        BackgroundColor="Yellow"
+                        TextColor="Black"
+                        x:Name="skillsbutton"
+                        Clicked="skillsbutton_Clicked"/>
                 <Button Text="Photos"
+                        x:Name="Photosbutton" 
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
                     HeightRequest="100"
-                        BackgroundColor="Tomato"/>
+                        BackgroundColor="Crimson"
+                        TextColor="Black"
+                        />
                 <Button Text="Contact Me"
+                        x:Name="ContactMebutton"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
                     HeightRequest="100"
-                        BackgroundColor="YellowGreen"/>
+                        BackgroundColor="Yellow"
+                        TextColor="Black"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
