@@ -293,9 +293,6 @@
     <AndroidResource Include="Resources\drawable\family.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\family.jpg.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\football.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -10,6 +10,13 @@
                     <StackLayout Orientation="Horizontal" Margin="5">
                         <Image x:Name="dadimage" Source="dad.jpg" HeightRequest="100" WidthRequest="100"/>
                         <Image x:Name="footballimage" Source="football.jpg" HeightRequest="100" WidthRequest="100"/>
+                        <Image x:Name="football2" Source="football2.jpg"/>
+                        <Image x:Name="friends" Source="friends.jpg"/>
+                        <Image x:Name="family" Source="family.jpg"/>
+                        <Image x:Name="maddy" Source="maddy.jpg"/>
+                        <Image x:Name="tyler" Source="tyler.jpg"/>
+                        <Image x:Name="truck" Source="truck.jpg"/>
+
                     </StackLayout>
                 </ScrollView>
 

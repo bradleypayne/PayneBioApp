@@ -166,9 +166,6 @@
     <BundleResource Include="Resources\family.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\family.jpg.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\football.jpg" />
   </ItemGroup>
   <ItemGroup>
