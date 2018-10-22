@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PayneBioApp.ContactMe">
+             x:Class="PayneBioApp.ContactMe"
+             Title="Contact Me">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout HeightRequest="150">
+            <Image Source="contactme.jpeg"  HeightRequest="200" WidthRequest="500"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

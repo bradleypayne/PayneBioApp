@@ -5,9 +5,9 @@
              Title="About Me">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="5">
-                <Image Source="http://media-cdn.wehco.com/img/photos/2017/12/02/120117opportunities012238373639_t1070_h86e39986abb936a8c0623e503d2f7fcb59935532.jpg"/>
-                <Label Text="Hello! My name is Bradley. I am a senior Math major at Pittsburg State University, and I am also pursuing a minor in computing. I also play football here at Pitt. Aside from football, I have may hobbies that include playing video games (Xbox mostly), playing almost any sport, watching movies, spending time with my siblings, and many more. I am the oldest of 10 children and I love every single one of those munchkins very much. I am so much older than them that sometimes it almost feels like I have raised my own kids. After graduting college I plan to pursue a masters degree in both Mathematics and Information Technology. After finishing school, I would like to work in software engineering or software development." />
+            <StackLayout Padding="5" BackgroundColor="Black">
+                <!--<Image Source="http://media-cdn.wehco.com/img/photos/2017/12/02/120117opportunities012238373639_t1070_h86e39986abb936a8c0623e503d2f7fcb59935532.jpg"/>-->
+                <Label TextColor="Crimson" FontAttributes="Bold"  Font="MarkerFelt-thin, 16" Text="Hello! My name is Bradley. I am a senior Math major at Pittsburg State University, and I am also pursuing a minor in computing. I also play football here at Pitt. Aside from football, I have may hobbies that include playing video games (Xbox mostly), playing almost any sport, watching movies, spending time with my siblings, and many more. I am the oldest of 10 children and I love every single one of those munchkins very much. I am so much older than them that sometimes it almost feels like I have raised my own kids. After graduting college I plan to pursue a masters degree in both Mathematics and Information Technology. After finishing school, I would like to work in software engineering or software development." />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

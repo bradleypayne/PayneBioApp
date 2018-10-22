@@ -5,11 +5,11 @@
              Title="Bradley Payne Bio App">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Margin="10">
+            <StackLayout Margin="10" BackgroundColor="Black">
                 <ScrollView Orientation="Horizontal">
-                    <StackLayout Orientation="Horizontal" Margin="5">
-                        <Image x:Name="dadimage" Source="dad.jpg" HeightRequest="100" WidthRequest="100"/>
-                        <Image x:Name="footballimage" Source="football.jpg" HeightRequest="100" WidthRequest="100"/>
+                    <StackLayout Orientation="Horizontal" Margin="5" HeightRequest="100">
+                        <Image x:Name="dadimage" Source="dad.jpg" />
+                        <Image x:Name="footballimage" Source="football.jpg"/>
                         <Image x:Name="football2" Source="football2.jpg"/>
                         <Image x:Name="friends" Source="friends.jpg"/>
                         <Image x:Name="family" Source="family.jpg"/>
