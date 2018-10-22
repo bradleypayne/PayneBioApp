@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace PayneBioApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ContactMe : ContentPage
+	public partial class PhotosPage : ContentPage
 	{
-		public ContactMe ()
+		public PhotosPage ()
 		{
 			InitializeComponent ();
 		}
