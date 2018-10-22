@@ -4,7 +4,7 @@
              x:Class="PayneBioApp.ContactMe"
              Title="Contact Me">
     <ContentPage.Content>
-        <StackLayout HeightRequest="150">
+        <StackLayout HeightRequest="150" BackgroundColor="Black">
             <Image Source="contactme.jpeg"  HeightRequest="200" WidthRequest="500"/>
             
         </StackLayout>
