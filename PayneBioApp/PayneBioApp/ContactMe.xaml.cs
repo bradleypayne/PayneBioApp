@@ -16,5 +16,17 @@ namespace PayneBioApp
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(name.Text))
+                DisplayAlert("Error", "Please enter name", "Ok");
+            if (string.IsNullOrEmpty(email.Text))
+                DisplayAlert("Error", "Please enter e-mail", "Ok");
+            if (string.IsNullOrEmpty(message.Text))
+                DisplayAlert("Error", "Please enter message", "Ok");
+            DisplayAlert("Thank You!", "Your message has been sent!", "Ok");
+            return;
+        }
+    }
 }
