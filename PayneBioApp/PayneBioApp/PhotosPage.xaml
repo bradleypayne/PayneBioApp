@@ -1,12 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PayneBioApp.PhotosPage">
+             x:Class="PayneBioApp.PhotosPage"
+             BackgroundColor="Black"
+             Title="Pictures">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <Grid Padding="0" Margin="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="185"/>
+                    <ColumnDefinition Width="185"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="football.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="0" />
+                <Image Source="family.jpg" Aspect="AspectFill" Grid.Row="1" Grid.Column="0"/>
+                <Image Source="football2.jpg" Aspect="AspectFill" Grid.Row="2" Grid.Column="0"/>
+                <Image Source="friends.jpg" Aspect="AspectFill" Grid.Row="3" Grid.Column="0"/>
+                <Image Source="jon.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="1"/>
+                <Image Source="dad.jpg" Aspect="AspectFill" Grid.Row="1" Grid.Column="1"/>
+                <Image Source="maddy.jpg" Aspect="AspectFill" Grid.Row="2" Grid.Column="1"/>
+                <Image Source="tyler.jpg"  Aspect="AspectFill" Grid.Row="3" Grid.Column="1"/>
+            </Grid>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

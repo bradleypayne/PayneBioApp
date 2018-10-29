@@ -10,10 +10,10 @@
                      Spacing="20">
                 <Label Text="Contact Me" FontSize="40" TextColor="Crimson" HorizontalTextAlignment="Center"/>
                 <Image Source="contactme.png"  HeightRequest="100" />
-            <Entry x:Name="name" Placeholder="Your name here" PlaceholderColor="Crimson" VerticalOptions="CenterAndExpand"/>
-                <Entry x:Name="email" Placeholder="Your e-mail here" PlaceholderColor="Crimson" VerticalOptions="CenterAndExpand" />
+            <Entry x:Name="name" Placeholder="Your name here" PlaceholderColor="Crimson" VerticalOptions="CenterAndExpand" TextColor="Crimson"/>
+                <Entry x:Name="email" Placeholder="Your e-mail here" PlaceholderColor="Crimson" VerticalOptions="CenterAndExpand" TextColor="Crimson" />
                 <Label Text="Enter your message here..." FontSize="16" TextColor="Crimson" VerticalOptions="CenterAndExpand"/>
-            <Editor x:Name="message" HeightRequest="100"/>
+            <Editor x:Name="message" HeightRequest="100" TextColor="Crimson"/>
                 <Button Text="Submit" BackgroundColor="Crimson"
                         Clicked="Button_Clicked"/>
             

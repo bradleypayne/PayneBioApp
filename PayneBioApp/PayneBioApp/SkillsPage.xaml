@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PayneBioApp.SkillsPage">
+             x:Class="PayneBioApp.SkillsPage"
+             Title="Skills"
+             BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="SkillsListView" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell TextColor="Crimson"  Text="{Binding}">
+                        </TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PayneBioApp.altmainpage"
-             Title="Bradley Payne Bio App">
+             Title="Bradley Payne Bio App"
+             BackgroundColor="Black"
+             >
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Margin="10" BackgroundColor="Black">
@@ -22,7 +24,7 @@
 
                 <Button x:Name="aboutmebutton" 
                         Clicked="aboutmebutton_Clicked"
-                        Opacity=".75"
+                        
                         Text="About Me"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
@@ -32,7 +34,7 @@
                         TextColor="Black"
                         />
                 <Button Text="Skills"
-                        Opacity=".75"
+                       
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
