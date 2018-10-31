@@ -34,7 +34,7 @@ namespace PayneBioApp
 
         private void Photosbutton_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new ContactMe());
+            Navigation.PushAsync(new PhotosPage());
         }
     }
 }

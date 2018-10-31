@@ -25,8 +25,16 @@ namespace PayneBioApp
                 DisplayAlert("Error", "Please enter e-mail", "Ok");
             if (string.IsNullOrEmpty(message.Text))
                 DisplayAlert("Error", "Please enter message", "Ok");
-            DisplayAlert("Thank You!", "Your message has been sent!", "Ok");
-            return;
+            else
+            {
+                DisplayAlert("Thank You!", "Your message has been sent!", "Ok");
+            }
+
+            message.Text = null;
+            name.Text = null;
+            email.Text = null;
+
+                return;
         }
     }
 }

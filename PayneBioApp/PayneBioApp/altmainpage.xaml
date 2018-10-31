@@ -4,6 +4,7 @@
              x:Class="PayneBioApp.altmainpage"
              Title="Bradley Payne Bio App"
              BackgroundColor="Black"
+             
              >
     <ContentPage.Content>
         <StackLayout>
@@ -44,7 +45,8 @@
                         x:Name="skillsbutton"
                         Clicked="skillsbutton_Clicked"/>
                 <Button Text="Photos"
-                        x:Name="Photosbutton" 
+                        x:Name="Photosbutton"
+                        Clicked="Photosbutton_Clicked"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
@@ -54,6 +56,7 @@
                         />
                 <Button Text="Contact Me"
                         x:Name="ContactMebutton"
+                        Clicked="ContactMebutton_Clicked"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" 
                     WidthRequest="1000"
